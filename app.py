@@ -15,7 +15,7 @@ menu_selection = st.selectbox("Menu", ["Make a selection", "Upload new email lis
 if menu_selection == "Upload new email list":
     file = st.file_uploader(label='Upload your emails file', type=['json'])
     # target = pd.read_json(file)
-    print(file)
+    st.write(print(type(file)))
   
 
 
